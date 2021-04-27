@@ -98,7 +98,29 @@
 }
 
 
-body {
+.body {
     font-family: open_sans;
     font-weight: bold;
+}
+
+.wrapper {
+
+}
+
+.container {
+    display: inline-flex;
+}
+
+.logo {
+    margin: 34px;
+}
+
+.menu {
+    position: absolute;
+    left: 765px;
+}
+
+.contacts {
+    position: absolute;
+    right: 389px;
 }
