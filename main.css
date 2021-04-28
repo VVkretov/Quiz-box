@@ -129,8 +129,11 @@ text-decoration: none;
 
 .menu__list {
     position: absolute;
-    left: 500px;
+    left: 446px;
+    list-style: none;
+    display: flex;
 }
+
 
 .menu__link {
     text-decoration: none;
