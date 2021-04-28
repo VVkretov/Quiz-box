@@ -99,28 +99,49 @@
 
 
 .body {
-    font-family: open_sans;
-    font-weight: bold;
-}
-
-.wrapper {
+    width: 1920px;
 
 }
+
+.header {
+    min-height: 100px;
+ }
 
 .container {
-    display: inline-flex;
+  width: 1100px;
+  margin: 0 auto; 
+}
+
+.header__container {
+    position: relative;
+    
 }
 
 .logo {
-    margin: 34px;
+    position: absolute;
+    left: 0;
 }
 
 .menu {
-    position: absolute;
-    left: 765px;
+position: absolute;
+text-decoration: none;
 }
+
+.menu__list {
+    position: absolute;
+    left: 500px;
+}
+
+.menu__link {
+    text-decoration: none;
+}
+
 
 .contacts {
     position: absolute;
-    right: 389px;
+    right: 0;
+}
+
+.footer__container {
+    position: absolute;
 }
