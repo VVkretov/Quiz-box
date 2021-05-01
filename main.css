@@ -97,6 +97,15 @@
 
 }
 
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
 
 body {
     font-family: "open sans", helvetica, sans-serif;
@@ -115,11 +124,13 @@ a {
 }
 
 ul {
-    padding: o;
+    padding: 0;
     margin: 0;
 }
+
 ul li {
     list-style: none;
+   
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -128,14 +139,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .wrapper__content {
-    width: 1150px;
+    width: 1140px;
     margin: 0 auto; 
 }
 
 .header {
     height: 125px;
     position: relative;
-    margin-bottom: 150px;
+    margin-bottom: 112px;
  }
 
 
@@ -147,8 +158,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .menu {
-    top: 65px;
-    left: 250px;
+    top: 62px;
+    left: 419px;
     position: absolute;
     text-decoration: none;
 }
@@ -157,7 +168,11 @@ h1, h2, h3, h4, h5, h6 {
 .menu__item {
     display: inline-block;
     vertical-align: middle;
-    margin-right: 50px;
+    margin-right: 70px;
+}
+
+.menu__item:last-child {
+    margin-right: 0;
 }
 
 .menu__link {
@@ -171,8 +186,8 @@ h1, h2, h3, h4, h5, h6 {
 .contacts {
     text-align: right;
     position: absolute;
-    right: 0;
-    top: 30px;
+    right: 0px;
+    top: 54px;
     font-style: normal;
 }
 
@@ -186,8 +201,12 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: underline;
 }
 
+.hello {
+    margin-bottom: 191px;
+}
+
 .container {
-    width: 400px;
+    width: 100%;
    } 
 
    .helo__title {
@@ -195,11 +214,12 @@ h1, h2, h3, h4, h5, h6 {
        font-weight: bold;
        line-height: 1.1;
        margin-bottom: 18px;
+       display: inline-block;
    }
 
    .hello__text {
        font-size: 21px;
-       margin-bottom: 45px;
+       margin-bottom: 74px;
    }
 
    .buttom {
@@ -207,12 +227,79 @@ h1, h2, h3, h4, h5, h6 {
        border-radius: 4px;
        font-weight: bold;
        text-transform: uppercase;
-       padding: 18px 40px;
+       padding: 17px 39px;
+       display: inline-block;
+       font-size: 14px;
    }
 
    .buttom:hover {
     background: #741BBA;
    }
+
+   .offers {
+       margin-bottom: 193px;
+   }
+
+   .title {
+       font-size: 36px;
+       font-weight: bold;
+       margin-bottom: 45px;
+       position: relative;
+   }
+   
+   .title__new:before {
+       content: "" ;
+       position: absolute;
+       background-image: url(./img/Vector.png);
+       height: 42px;
+       width: 42px;
+       left: 31%; 
+       top: 50%;
+       transform: translate(-50%, -50%);
+   }
+
+   .offers__item {
+       min-height: 144px;
+       display: inline-block;
+       border-radius: 4px;
+       margin-right: 27px;
+       width: 362px;
+       background: #fff;
+   }
+
+   .offers__item:last-child {
+       margin-right: 0;
+   }
+
+   .offers__header {
+       min-height: 144px;
+       margin-bottom: 33px;
+   }
+
+   .offers__content {
+       padding: 33px 24px;
+       margin-bottom: 50px;
+       color:#303030;
+   }
+
+   .offers__title {
+       font-style: 24px;
+       font-weight: bold;
+       margin-bottom: 30px;
+   }
+
+   .offers__feature {
+       display: inline-block;
+       vertical-align: top;
+       width: 72px;
+       margin-bottom: 23px;
+   }
+
+   .offers__feature:last-child {
+       margin-right: 0;
+   }
+
+  
 
 .footer {
     position: relative;
