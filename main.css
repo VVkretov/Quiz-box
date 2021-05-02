@@ -142,6 +142,10 @@ p {
     margin-top: 0;
 }
 
+.main-page-wrapper {
+    background: url("./img/nbgB77C1HAg\ 1\ \(1\).png") center top no-repeat, url("./img/56278948-888x544\ 2.png") right bottom 150px no-repeat;
+}
+
 .wrapper__content {
     width: 1140px;
     margin: 0 auto; 
@@ -455,6 +459,10 @@ p {
         width: 1150px;
         margin: 0 auto; 
         height: 152px;
+    }
+
+    .footer__container {
+        border-top: 1px solid #ffffff;
     }
 
     .footer--menu {
