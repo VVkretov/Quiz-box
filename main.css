@@ -109,7 +109,6 @@ html, body {
 
 body {
     font-family: "open sans", helvetica, sans-serif;
-    width: 1920px;
     background:#17191C;
     color:#FFFFFF;
     font-size: 16px;
@@ -143,7 +142,7 @@ p {
 }
 
 .main-page-wrapper {
-    background: url("./img/nbgB77C1HAg\ 1\ \(1\).png") center top no-repeat, url("./img/56278948-888x544\ 2.png") right bottom 150px no-repeat;
+    background: url("./img/nbgB77C1HAg\ 1\ \(1\).png") center top 35px no-repeat, url("./img/56278948-888x544\ 2.png") right bottom 150px no-repeat;
 }
 
 .wrapper__content {
@@ -152,7 +151,7 @@ p {
 }
 
 .header {
-    height: 125px;
+    min-height: 125px;
     position: relative;
     margin-bottom: 112px;
  }
@@ -161,13 +160,13 @@ p {
 .logo {
     display: block;
     position: absolute;
-    left: 0;
     top: 61px;
 }
 
 .menu {
     top: 62px;
-    left: 419px;
+    left: 50%;
+    transform: translateX(-50%);
     position: absolute;
     text-decoration: none;
 }
@@ -194,8 +193,8 @@ p {
 .contacts {
     text-align: right;
     position: absolute;
-    right: 10px;
-    top: 54px;
+    right: 0px;
+    top: 52px;
     font-style: normal;
 }
 
@@ -261,8 +260,8 @@ p {
        background-image: url(./img/Vector.png);
        height: 42px;
        width: 42px;
-       left: 52%; 
-       top: 207%;
+       left: 35%; 
+       top: 163%;
        transform: translate(-50%, -50%);
        display: block;  /*под вопросом  */
    }
@@ -290,8 +289,7 @@ p {
    }
 
    .offers__content {
-       padding: 30px 24px;
-       margin-bottom: 50px;
+       padding: 19px 24px;
    }
 
    .offers__title {
@@ -307,7 +305,6 @@ p {
    .offers__feature {
        display: inline-block;
        vertical-align: top;
-       width: 110px;
        margin-right: 50px;
    }
 
@@ -317,11 +314,13 @@ p {
 
     .offers__feature-text {
         color: #666666;
+        display: inline-block;
+        transform: translateY(-23%);
     }
 
     .offers__text {
         font-size: 14px;
-        margin-bottom: 20px;
+        margin-bottom: 31px;
     }
 
     .buttom--light--white {
@@ -368,6 +367,7 @@ p {
     .events__text {
         font-size: 14px;
         margin-bottom: 12px;
+        display: inline-block;
     }
 
     .events__title {
@@ -390,12 +390,12 @@ p {
     }
 
     .pagination__info {
-        margin-right: 36px;
+        margin-right: 21px;
     }
 
     .pagination__item {
         display: inline-block;
-        margin-right: 24px;
+        margin-right: -3px;
     }
 
     .pagination__item--active .pagination__number {
@@ -413,26 +413,32 @@ p {
     }
 
     .story {
-        margin-bottom: 111px;
+        margin-bottom: 63px;
+    }
+
+    .story__about:before, .story__info {
+        display: inline-block;
+        vertical-align: top;
     }
 
     .story__about:before {
+        margin-top: 36px;
         content: "";
-        display: block;
-        width: 482px;
-        height: 388px;
+        width: 489px;
+        height: 505px;
         background: url(./img/kviz_pliz__nizhnii_novgorod_1_qg_large\ 1.png) center center / cover no-repeat;
     }
 
     .story__info {
         content: "";
         background: url(./img/Rectangle\ 10.png);
-        display: block;
         width: 785px;
         height: 452px;
-        left: 738px;
-        top: 2250px;
-        position: absolute;
+        padding: 71px 78px;
+        margin-left: -139px;
+        margin-top: 130px;
+        /* left: 738px;
+        top: 2250px; */
     }
 
     .story__title {
@@ -442,7 +448,7 @@ p {
     }
 
     .story__text {
-        margin-bottom: 42px;
+        margin-bottom: 86px;
     }
 
     .story__text p {
@@ -466,15 +472,16 @@ p {
     }
 
     .footer--menu {
-        top: 62px;
-        left: 289px;
+        top: 52px;
+        left: 50%;
+        transform: translateX(-95%);
         position: absolute;
         text-decoration: none;
     }
 
     .socials {
-        top: 58px;
-        right: 274px;
+        top: 48px;
+        right: 263px;
         position: absolute;
     }
 
@@ -495,17 +502,24 @@ p {
     .socials__item {
         display: inline-block;
         vertical-align: middle;
-        margin-right: 10px;
+        margin-right: 8px;
     }
 
     .socials__item:last-child{
         margin-right: 0;
     }
 
+    .footer--logo {
+        display: block;
+        position: absolute;
+        top: 51px;
+        left: 10px;
+    }
+
     .footer--contacts {
         text-align: right;
         position: absolute;
-        right: 10px;
-        top: 54px;
+        right: 4px;
+        top: 45px;
         font-style: normal;
     }
