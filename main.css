@@ -251,18 +251,14 @@ p {
        font-size: 36px;
        font-weight: bold;
        margin-bottom: 45px;
-       /* position: relative; */
    }
    
-   .title__new:before {
+   .title__new::after {
        content: "" ;
-       position: absolute;
        background-image: url(./img/Vector.png);
        height: 42px;
        width: 42px;
-       left: 35%; 
-       top: 163%;
-       transform: translate(-50%, -50%);
+       transform: translate(791%, -97%);
        display: block;  /*под вопросом  */
    }
 
