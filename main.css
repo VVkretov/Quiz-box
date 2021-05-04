@@ -231,18 +231,13 @@ p {
    }
 
    .buttom {
-       /* background:#8F00FF; */
        border-radius: 4px;
        font-weight: bold;
        text-transform: uppercase;
-       padding: 17px 39px;
+         padding: 17px 39px;
        display: inline-block;
        font-size: 14px;
    }
-
-   /* .buttom:hover {
-    background: #741BBA;
-   } */
 
    .offers {
        margin-bottom: 121px;
@@ -383,7 +378,11 @@ p {
     .events__title {
         font-size: 24px;
         font-weight: bold;
-        margin-bottom: 5px;
+        /* margin-bottom: 5px; */
+    }
+
+    .events__element {
+        margin-bottom: 0;
     }
 
     .pagination {
