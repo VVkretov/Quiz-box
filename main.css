@@ -237,6 +237,12 @@ p {
          padding: 17px 39px;
        display: inline-block;
        font-size: 14px;
+       border: 1px solid transparent;
+   }
+
+   .buttom--main:hover {
+       background: #8F00FF;
+       border-color:#8F00FF ;
    }
 
    .offers {
@@ -323,14 +329,11 @@ p {
 
     .buttom--light {
         padding: 17px 28px;
-        border: 1px solid #8F00FF;
         color: #8F00FF; 
     }
 
     .buttom--light:hover {
-        background: #8F00FF; 
-        border-color:transparent;
-        color: #ffffff;
+        border-color:#8F00FF;
     }
 
     .buttom--light--active {
@@ -468,6 +471,9 @@ p {
         margin-bottom: 0;
     }
 
+    .buttom--story:hover {
+        border-color: #fff;
+    }
 
     .footer {
         position: relative;
