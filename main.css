@@ -240,9 +240,9 @@ p {
        border: 1px solid transparent;
    }
 
-   .buttom--main:hover {
+   .buttom--main {
        background: #8F00FF;
-       border-color:#8F00FF ;
+       border-color:#8F00FF;
    }
 
    .offers {
@@ -330,10 +330,13 @@ p {
     .buttom--light {
         padding: 17px 28px;
         color: #8F00FF; 
+        border-color: #8F00FF;
     }
 
     .buttom--light:hover {
         border-color:#8F00FF;
+        background: #8F00FF;
+         color: #fff;
     }
 
     .buttom--light--active {
@@ -471,7 +474,7 @@ p {
         margin-bottom: 0;
     }
 
-    .buttom--story:hover {
+    .buttom--story{
         border-color: #fff;
     }
 
