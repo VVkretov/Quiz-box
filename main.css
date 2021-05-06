@@ -255,12 +255,12 @@ p {
        margin-bottom: 45px;
    }
    
-   .title__new::after {
+   .title__new:after {
        content: "" ;
        background-image: url(./img/Vector.png);
        height: 42px;
        width: 42px;
-       margin-bottom: -9px;
+       vertical-align: middle;
        margin-left: 13px;
        display: inline-block;  
    }
