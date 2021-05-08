@@ -141,6 +141,14 @@ p {
     margin-top: 0;
 }
 
+.wrapper {
+display: flex;
+flex-direction: column;
+min-height: 100%;
+overflow: hidden;
+min-width: 1200px;
+}
+
 .main-page-wrapper {
     background: url("./img/nbgB77C1HAg\ 1\ \(1\).png") center top 0px no-repeat, url("./img/56278948-888x544\ 2.png") right bottom 150px no-repeat;
 }
@@ -172,10 +180,6 @@ p {
 }
 
 .menu {
-    /* top: 62px;
-    left: 50%;
-    transform: translateX(-50%);
-    position: absolute; */
     text-decoration: none;
 }
 
@@ -223,12 +227,10 @@ p {
 
 .hello {
     min-height: 484px;
-    width: 55%;
+    width: 600px;
+    max-width: 100%;
 }
 
-/* .container {
-    width: 100%;
-}  */
 
 .hello__container {
     width: 100%;
@@ -239,8 +241,6 @@ p {
        font-weight: bold;
        line-height: 1.1;
        margin-bottom: 18px;
-       /* display: inline-block;
-       width: min-content; */
    }
 
    .hello__text {
@@ -330,6 +330,7 @@ p {
 
    .offers__feature {
        display: flex;
+       align-items: center;
    }
 
     .offers__feature:last-child {
@@ -338,6 +339,7 @@ p {
 
     .offers__feature-text {
         color: #666666;
+        margin-left: 5px;
     }
 
     .offers__text {
@@ -462,13 +464,11 @@ p {
     .story__info {
         content: "";
         background: url(./img/Rectangle\ 10.png);
-        width: 785px;
+        max-width: 785px;
         height: 452px;
         padding: 71px 78px;
         margin-left: -139px;
         margin-top: 130px;
-        /* left: 738px;
-        top: 2250px; */
     }
 
     .story__title {
@@ -494,28 +494,22 @@ p {
     }
 
     .footer {
-        position: relative;
         width: 1150px;
         margin: 0 auto; 
-        height: 152px;
+        height: 80px;
     }
+
 
     .footer__container {
         border-top: 1px solid #ffffff;
-    }
-
-    .footer--menu {
-        top: 52px;
-        left: 50%;
-        transform: translateX(-95%);
-        position: absolute;
-        text-decoration: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: auto;
     }
 
     .socials {
-        top: 48px;
-        right: 263px;
-        position: absolute;
+        display: flex;
     }
 
     .contacts__elements {
@@ -533,26 +527,9 @@ p {
     }
 
     .socials__item {
-        display: inline-block;
-        vertical-align: middle;
         margin-right: 8px;
     }
 
     .socials__item:last-child{
         margin-right: 0;
-    }
-
-    .footer--logo {
-        display: block;
-        position: absolute;
-        top: 51px;
-        left: 10px;
-    }
-
-    .footer--contacts {
-        text-align: right;
-        position: absolute;
-        right: 4px;
-        top: 45px;
-        font-style: normal;
     }
