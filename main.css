@@ -236,7 +236,7 @@ p {
 }  */
 
 .hello__container {
-    width: 38%;
+    width: 100%;
 }
 
  .helo__title {
@@ -244,8 +244,8 @@ p {
        font-weight: bold;
        line-height: 1.1;
        margin-bottom: 18px;
-       display: inline-block;
-       width: min-content;
+       /* display: inline-block;
+       width: min-content; */
    }
 
    .hello__text {
