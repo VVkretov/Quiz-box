@@ -179,10 +179,12 @@ p {
     text-decoration: none;
 }
 
+.menu__list {
+    display: flex;
+}
 
 .menu__item {
-    display: inline-block;
-    vertical-align: middle;
+    /* vertical-align: middle; */
     margin-right: 70px;
 }
 
@@ -200,9 +202,6 @@ p {
 
 .contacts {
     text-align: right;
-    /* position: absolute; */
-    /* right: 0px;
-    top: 52px; */
     font-style: normal;
 }
 
@@ -223,10 +222,6 @@ p {
 }
 
 .hello {
-    /* margin-bottom: 191px; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     min-height: 484px;
     width: 55%;
 }
@@ -258,7 +253,6 @@ p {
        font-weight: bold;
        text-transform: uppercase;
          padding: 17px 39px;
-       display: inline-block;
        font-size: 14px;
        border: 1px solid transparent;
    }
@@ -276,6 +270,8 @@ p {
        font-size: 36px;
        font-weight: bold;
        margin-bottom: 45px;
+       display: flex;
+       align-items: center;
    }
    
    .title__new:after {
@@ -283,21 +279,22 @@ p {
        background-image: url(./img/Vector.png);
        height: 42px;
        width: 42px;
-       vertical-align: middle;
-       margin-left: 13px;
-       display: inline-block;  
+       margin-left: 13px; 
+   }
+
+   .offers__list {
+       display: flex;
+       justify-content: space-between;
    }
 
    .offers__item {
        min-height: 449px;
-       display: inline-block;
        border-radius: 4px;
-       margin-right: 22px;
-       width: 362px;
+       width: calc(100% / 3 - 20px);
        background: #fff;
        color:#303030;
-       vertical-align: top;
-       margin-top: 18px;
+       display: flex;
+       flex-direction: column;
    }
 
    .offers__item:last-child {
@@ -327,12 +324,12 @@ p {
 
    .offers__features {
        margin-bottom: 20px;
+       display: flex;
+       justify-content: space-between;
    }
 
    .offers__feature {
-       display: inline-block;
-       vertical-align: top;
-       margin-right: 50px;
+       display: flex;
    }
 
     .offers__feature:last-child {
@@ -341,8 +338,6 @@ p {
 
     .offers__feature-text {
         color: #666666;
-        display: inline-block;
-        transform: translateY(-23%);
     }
 
     .offers__text {
@@ -382,6 +377,7 @@ p {
         overflow: hidden;
     }
 
+
     .events__img {
         display: inline-block;
         width: 100%;
@@ -407,7 +403,6 @@ p {
     .events__title {
         font-size: 24px;
         font-weight: bold;
-        /* margin-bottom: 5px; */
     }
 
     .events__element {
@@ -415,16 +410,14 @@ p {
     }
 
     .pagination {
-        text-align: center;
-    }
-
-    .pagination__info, .pagination__list {
-        display: inline-block;
-        /* vertical-align: middle; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .pagination__list {
-        margin-bottom: 103px;
+      display: flex;
+      align-items: center;
     }
 
     .pagination__info {
@@ -432,8 +425,7 @@ p {
     }
 
     .pagination__item {
-        display: inline-block;
-        margin-right: -3px;
+       text-align: center;
     }
 
     .pagination__item--active .pagination__number {
@@ -453,13 +445,13 @@ p {
     .story {
         margin-bottom: 63px;
     }
-
-    .story__about:before, .story__info {
-        display: inline-block;
-        vertical-align: top;
+    .story__about {
+        display: flex;
     }
 
+
     .story__about:before {
+        display: block;
         margin-top: 36px;
         content: "";
         width: 489px;
