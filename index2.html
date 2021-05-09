@@ -8,11 +8,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="./main.css">
-    <title>Document</title>
+    <title>services page</title>
 </head>
 <body>
-    <div class="wrapper main-page-wrapper">
-        <div class="wrapper__content">
+    <div class="wrapper page-wrapper">
+        <div class="wrapper__content top-line">
+            <div class="container top-container">
                 <header class="header">
                     <div class="container header__container">
                         <a href="#" class="logo">
@@ -31,17 +32,52 @@
                         </address>
                     </div>   
                 </header>
-                <main class="main-content">
-                    <section class="hello">
-                        <div class="container">
-                            <h1 class="helo__title">Игры</h1>
-                            <ul class="hello__list">
-                                <li class="hello__item"><a href="" class="helo__link">Главная</a></li>
-                                <li class="hello__item"><a href="" class="helo__link">Услуги</a></li>
-                            </ul>
-                        </div>   
-                    </section>
-                </main>
+                <h1 class="page-title">Игры</h1>
+                <nav class="breadcrumbs">
+                    <ul class="breadcrumbs__list">
+                        <li class="breadcrumbs__item">
+                            <a href="#" class="breadcrumbs__link">Главная</a>
+                        </li>
+                        <li class="breadcrumbs__item breadcrumbs__item--active">
+                            <a href="#" class="breadcrumbs__link">Услуги</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <main class="page-content">
+                <div class="container">
+                    <ul class="services">
+                        <li class="service__item service">
+                            <div class="service__img">
+                                <img src="./img/music-quiz 1 (1).png" class="service__img-elem" alt="music-game">
+                            </div>
+                            <div class="service__content">
+                                <h2 class="service__title">Музыкальная игра</h2>
+                            </div>
+                            <div class="service__desc">
+                                <p>
+                                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке,  а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. 
+                                </p>
+                            </div>
+                            <a href="#" class="btn">подробнее</a>
+                        </li>
+                        <li class="service__item service">
+                            <div class="service__img">
+                                <img src="./img/DyzSUv3WsAEW9zJ 1.png" class="service__img-elem" alt="nineties">
+                            </div>
+                            <div class="service__content">
+                                <h2 class="service__title">Назад в 90-е</h2>
+                            </div>
+                            <div class="service__desc">
+                                <p>
+                                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке,  а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. 
+                                </p>
+                            </div>
+                            <a href="#" class="btn">подробнее</a>
+                        </li>
+                    </ul>
+                </div>
+            </main>
         </div>
     </div>
 </body>
