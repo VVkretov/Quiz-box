@@ -409,7 +409,16 @@ min-width: 1200px;
     }
     .pager {
         color: #000;
-        
+    }
+
+    .pager .pagination__item--active .pagination__number {
+        color: #fff;
+        background: #8F00FF;
+    }
+
+    .pager .pagination__number:hover {
+        color: #fff;
+        background: #8F00FF;
     }
 
     .pagination__list {
@@ -494,9 +503,11 @@ min-width: 1200px;
         height: 80px;
     }
 
+    .footer-section {
+        border-top: 1px solid #ffffff;
+    }
 
     .footer__container {
-        border-top: 1px solid #ffffff;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -593,13 +604,17 @@ min-width: 1200px;
         padding: 40px 0;
     }
 
+    .services {
+        margin-bottom: 106px;
+    }
+
     .service {
         display: flex;
-        margin-bottom: 40px;
+        margin-bottom: 47px;
     } 
     
     .service__img {
-        width: 30%;
+        width: 40%;
         margin-right: 7%;
         flex-shrink: 0;
     }
@@ -624,5 +639,58 @@ min-width: 1200px;
 
     .service__desc {
         line-height: 27px;
-        margin-bottom: 30px;
+        margin-bottom: 49px;
+        width: 627px;     /* test*/
+    }
+
+    .buttom--light--length {
+        padding: 17px 40px;
+        color: #8F00FF; 
+        border-color: #8F00FF;
+    }
+
+    .buttom--light--length--active {
+        padding: 17px 40px;
+    }
+
+    
+
+    .inner-section {
+        background: #F4F5F5;
+        color: #1A1B1E;
+        padding: 88px 0;
+        margin-bottom: 62px;
+    }
+
+    .inner-section__title {
+        font-size: 48px;
+        line-height: 65px;
+        font-weight: bold;
+        margin-bottom: 80px;
+    }
+
+    .partners {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .partners__item {
+        margin-left: 46px;
+    }
+
+    .partners__item:nth-child( 4n + 1 ) {
+        margin-left: 0;
+    }
+
+    .partners__link {
+        display: flex;
+        width: 250px;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+        filter: grayscale(100%);
+    }
+
+    .partners__link:hover {
+        filter: grayscale(0);
     }
