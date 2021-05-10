@@ -1,0 +1,13 @@
+.pager {
+    color: #000;
+}
+
+.pager .pagination__item--active .pagination__number {
+    color: #fff;
+    background: #8F00FF;
+}
+
+.pager .pagination__number:hover {
+    color: #fff;
+    background: #8F00FF;
+}

@@ -371,12 +371,12 @@ min-width: 1200px;
     .events__item {
         width: 555px;
     }
-/* тут закончил расформирование по файлам */
+
+    
     .single-events {
         position: relative;
         border-radius: 4px;
     }
-
 
     .single-events__content{
         position: absolute;
@@ -539,7 +539,7 @@ min-width: 1200px;
 
 
     /* services page  */
-
+/* тут закончил расформирование по файлам */
     .page-wrapper {
          background: url("../img/nbgB77C1HAg\ 1\ \(1\).png") center top 0px no-repeat; /* #F2F2F2 url("") right bottom 50px no-repeat; */
     }
@@ -565,10 +565,13 @@ min-width: 1200px;
         margin-bottom: 96px;
     }
 
+    .breadcrumbs {
+        margin-bottom: 18px;
+    }
+
     .breadcrumbs__list {
         display: flex;
         align-items: center;
-        margin-bottom: 18px;
     }
 
     .breadcrumbs__item {
@@ -637,7 +640,7 @@ min-width: 1200px;
     .service__desc {
         line-height: 27px;
         margin-bottom: 49px;
-        width: 627px;     /* test*/
+        max-width: 627px;     /* test*/
     }
 
     .buttom--light--length {

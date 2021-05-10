@@ -1,0 +1,16 @@
+.socials {
+    display: flex;
+}
+
+.socials__link {
+    display: block;
+    width: 36px;
+}
+
+.socials__item {
+    margin-right: 8px;
+}
+
+.socials__item:last-child{
+    margin-right: 0;
+}

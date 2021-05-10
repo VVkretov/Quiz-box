@@ -12,3 +12,12 @@
     font-size: 13px;
     text-decoration: underline;
 }
+
+.contacts__elements {
+    color:#9A9A9A;
+    font-size: 11px;
+    }
+
+    .contacts__element {
+        font-size: 26px;
+    }

@@ -1,0 +1,25 @@
+.single-events {
+    position: relative;
+    border-radius: 4px;
+}
+
+.single-events__content{
+    position: absolute;
+    left: 29px;
+    right: 13px;
+    bottom: 0;
+    min-height: 140px;
+}
+
+.single-events__text {
+    font-size: 14px;
+}
+
+.single-events__title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.single-events__element {
+    margin-bottom: 0;
+}
