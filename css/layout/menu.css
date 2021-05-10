@@ -1,0 +1,23 @@
+.menu {
+    text-decoration: none;
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__item {
+    margin-right: 70px;
+}
+
+.menu__item:last-child {
+    margin-right: 0;
+}
+
+.menu__link {
+    font-size: 14px;
+}
+
+.menu__link:hover {
+    color:#8F00FF;
+}

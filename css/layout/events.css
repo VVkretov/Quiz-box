@@ -1,0 +1,9 @@
+.events__list {
+    margin-bottom: 57px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.events__item {
+    width: 555px;
+}

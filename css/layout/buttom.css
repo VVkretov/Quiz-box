@@ -1,0 +1,32 @@
+.buttom {
+    border-radius: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+      padding: 17px 39px;
+    font-size: 14px;
+    border: 1px solid transparent;
+}
+
+.buttom--main {
+    background: #8F00FF;
+    border-color:#8F00FF;
+}
+
+.buttom--light {
+  padding: 17px 28px;
+  color: #8F00FF; 
+  border-color: #8F00FF;
+}
+
+.buttom--light:hover {
+  border-color:#8F00FF;
+  background: #8F00FF;
+   color: #fff;
+}
+
+.buttom--light--active {
+  padding: 17px 28px;
+  background: #8F00FF; 
+  border-color:transparent;
+  color: #ffffff;
+}

@@ -2,7 +2,7 @@
     font-family: 'open_sans';
     src: url('./fonts/opensans-bold-webfont.woff2') format('woff2'),
          url('./fonts/opensans-bold-webfont.woff') format('woff');
-    font-weight: bold;/*700*/
+    font-weight: bold;
     font-style: normal;
 
 }
@@ -14,7 +14,6 @@
          url('./fonts/opensans-bolditalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
-
 }
 
 
@@ -62,7 +61,7 @@
     font-family: 'open_sans';
     src: url('./fonts/opensans-lightitalic-webfont.woff') format('woff2'),
          url('./fonts/opensans-lightitalic-webfont.woff') format('woff');
-    font-weight: 300;
+    font-weight: lightitalic;
     font-style: italic;
 
 }
@@ -72,9 +71,8 @@
     font-family: 'open_sans';
     src: url('./fonts/opensans-light-webfont.woff2') format('woff2'),
          url('./fonts/opensans-light-webfont.woff') format('woff');
-    font-weight: light;/*300*/
+    font-weight: light;
     font-style: normal;
-
 }
 
 
@@ -97,9 +95,9 @@
 
 }
 
-* {
+ * {
     box-sizing: border-box;
-}
+ }
 
 html, body {
     margin: 0;
@@ -155,7 +153,7 @@ min-width: 1200px;
 }
 
 .main-page-wrapper {
-    background: url("./img/nbgB77C1HAg\ 1\ \(1\).png") center top 0px no-repeat, url("./img/56278948-888x544\ 2.png") right bottom 150px no-repeat;
+    background: url("../img/nbgB77C1HAg\ 1\ \(1\).png") center top 0px no-repeat, url("../img/56278948-888x544\ 2.png") right bottom 150px no-repeat;
 }
 
 .wrapper__content {
@@ -230,7 +228,6 @@ min-width: 1200px;
     max-width: 100%;
 }
 
-
 .hello__container {
     width: 100%;
 }
@@ -275,7 +272,7 @@ min-width: 1200px;
    
    .title__new:after {
        content: "" ;
-       background-image: url(./img/Vector.png);
+       background-image: url(../img/Vector.png);
        height: 42px;
        width: 42px;
        margin-left: 13px; 
@@ -374,7 +371,7 @@ min-width: 1200px;
     .events__item {
         width: 555px;
     }
-
+/* тут закончил расформирование по файлам */
     .single-events {
         position: relative;
         border-radius: 4px;
@@ -462,12 +459,12 @@ min-width: 1200px;
         content: "";
         width: 489px;
         height: 505px;
-        background: url(./img/kviz_pliz__nizhnii_novgorod_1_qg_large\ 1.png) center center / cover no-repeat;
+        background: url(../img/kviz_pliz__nizhnii_novgorod_1_qg_large\ 1.png) center center / cover no-repeat;
     }
 
     .story__info {
         content: "";
-        background: url(./img/Rectangle\ 10.png);
+        background: url(../img/Rectangle\ 10.png);
         max-width: 785px;
         height: 452px;
         padding: 71px 78px;
@@ -544,7 +541,7 @@ min-width: 1200px;
     /* services page  */
 
     .page-wrapper {
-         background: url("./img/nbgB77C1HAg\ 1\ \(1\).png") center top 0px no-repeat; /* #F2F2F2 url("") right bottom 50px no-repeat; */
+         background: url("../img/nbgB77C1HAg\ 1\ \(1\).png") center top 0px no-repeat; /* #F2F2F2 url("") right bottom 50px no-repeat; */
     }
 
     .top-line {
