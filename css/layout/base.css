@@ -59,10 +59,10 @@ min-width: 1200px;
     background: url("/img/nbgB77C1HAg\ 1\ \(1\).png") center top 0px no-repeat, url("/img/56278948-888x544\ 2.png") right bottom 150px no-repeat;
 }
 
-.wrapper__content {
+/* .wrapper__content {
     width: 1140px;
     margin: 0 auto; 
-}
+} */
 
 .wrapper-container {
     width: 1140px;
@@ -103,4 +103,9 @@ min-width: 1200px;
     background: #F2F2F2;
     color: #303030;
     padding: 40px 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
 }
