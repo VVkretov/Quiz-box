@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: 'open_sans';
     src: url('./fonts/opensans-bold-webfont.woff2') format('woff2'),
          url('./fonts/opensans-bold-webfont.woff') format('woff');
@@ -158,8 +158,8 @@ min-width: 1200px;
 
 .wrapper__content {
     width: 1140px;
-    margin: 0 auto; 
-}
+    margin: 0 auto;  */
+/* }
 
 .header {
     margin-bottom: 112px;
@@ -535,15 +535,16 @@ min-width: 1200px;
 
     .socials__item:last-child{
         margin-right: 0;
-    }
+    } */
 
 
     /* services page  */
 /* тут закончил расформирование по файлам */
-    .page-wrapper {
-         background: url("../img/nbgB77C1HAg\ 1\ \(1\).png") center top 0px no-repeat; /* #F2F2F2 url("") right bottom 50px no-repeat; */
-    }
 
+    /* .page-wrapper {
+         background: url("../img/nbgB77C1HAg\ 1\ \(1\).png") center top 0px no-repeat;
+    }
+    
     .top-line {
         min-height: 415px;
         display: flex;
@@ -563,9 +564,9 @@ min-width: 1200px;
         font-weight: bold;
         line-height: 1;
         margin-bottom: 96px;
-    }
+    }  */
 
-    .breadcrumbs {
+    /* .breadcrumbs {
         margin-bottom: 18px;
     }
 
@@ -602,9 +603,9 @@ min-width: 1200px;
         background: #F2F2F2;
         color: #303030;
         padding: 40px 0;
-    }
+    } */
 
-    .services {
+    /* .services {
         margin-bottom: 106px;
     }
 
@@ -640,7 +641,7 @@ min-width: 1200px;
     .service__desc {
         line-height: 27px;
         margin-bottom: 49px;
-        max-width: 627px;     /* test*/
+        max-width: 627px;     
     }
 
     .buttom--light--length {
@@ -651,11 +652,11 @@ min-width: 1200px;
 
     .buttom--light--length--active {
         padding: 17px 40px;
-    }
+    } */
 
     
 
-    .inner-section {
+    /* .inner-section {
         background: #F4F5F5;
         color: #1A1B1E;
         padding: 88px 0;
@@ -667,9 +668,9 @@ min-width: 1200px;
         line-height: 65px;
         font-weight: bold;
         margin-bottom: 80px;
-    }
+    } */
 
-    .partners {
+    /* .partners {
         display: flex;
         flex-wrap: wrap;
     }
@@ -693,4 +694,4 @@ min-width: 1200px;
 
     .partners__link:hover {
         filter: grayscale(0);
-    }
+    } */

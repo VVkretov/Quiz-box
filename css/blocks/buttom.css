@@ -34,3 +34,13 @@
 .buttom--story{
   border-color: #fff;
 }
+
+.buttom--light--length {
+  padding: 17px 40px;
+  color: #8F00FF; 
+  border-color: #8F00FF;
+}
+
+.buttom--light--length--active {
+  padding: 17px 40px;
+}

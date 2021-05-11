@@ -12,12 +12,12 @@
     content: "";
     width: 489px;
     height: 505px;
-    background: url(../img/kviz_pliz__nizhnii_novgorod_1_qg_large\ 1.png) center center / cover no-repeat;
+    background: url(/img/kviz_pliz__nizhnii_novgorod_1_qg_large\ 1.png) center center / cover no-repeat;
 }
 
 .story__info {
     content: "";
-    background: url(../img/Rectangle\ 10.png);
+    background: url(/img/Rectangle\ 10.png);
     max-width: 785px;
     height: 452px;
     padding: 71px 78px;
