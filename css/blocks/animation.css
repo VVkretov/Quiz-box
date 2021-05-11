@@ -1,0 +1,25 @@
+
+
+/* .animation {
+    width: 500px;
+    height: 500px;
+    background: url(/img/quiz-welcome.gif) 0 0 no-repeat;
+    margin-top: 50px;
+    animation: quiz 20s steps(63);
+}
+
+@keyframes quiz {
+0% {
+    background-position-y: -37800px ;
+}
+} */
+
+.animation {
+    width: 1920px;
+    height: 960px; 
+    background: url("/img/nbgB77C1HAg\ 1\ \(1\).png") center top 0px no-repeat;
+}
+
+.container__animation {
+    display: flex;
+}
