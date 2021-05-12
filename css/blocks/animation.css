@@ -1,18 +1,5 @@
 
 
-
-@keyframes quiz {
-from { 
-   
-}
-50% {
-    
-} 
-to{
-    transform: translateY(40px) ;
-    opacity: 0;
-}
-}
  .animation {
     width: 1920px;
     height: 960px; 
@@ -36,15 +23,32 @@ to{
 }
 
 .animation__list {
+    position: relative;
     display: flex;
     justify-content: space-between;
     width: 400px;
     height: 200px;
     flex-direction: column;
     align-items: center;
-    animation: quiz 3s  reverse;
-    animation-fill-mode: backwards;
+    animation: quiz 2s reverse;
+    /* animation-fill-mode: backwards; */
+    
+         
 }
+
+@keyframes quiz {
+    from { 
+      
+    }
+    50% {
+       
+    } 
+    to{
+         transform: translateY( 40px) ;
+         opacity: 0; 
+       
+    }
+    }
 
 .animation__anime {
     width: 321px;
