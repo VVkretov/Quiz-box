@@ -9,14 +9,15 @@
 
 .service__img {
     width: 40%;
-    margin-right: 7%;
+    margin-right: 5%;
     flex-shrink: 0;
+    height: 333px;
+    width: 460px;
 }
 
 .service__img-elem {
     height: 100%;
     width: 100%;
-    object-fit: cover;
     border-radius: 4px;
 }
 
@@ -34,5 +35,5 @@
 .service__desc {
     line-height: 27px;
     margin-bottom: 49px;
-    max-width: 627px;     /* test*/
+    max-width: 627px;     
 }
