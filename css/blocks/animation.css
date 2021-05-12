@@ -1,25 +1,56 @@
 
 
-/* .animation {
-    width: 500px;
-    height: 500px;
-    background: url(/img/quiz-welcome.gif) 0 0 no-repeat;
-    margin-top: 50px;
-    animation: quiz 20s steps(63);
-}
 
 @keyframes quiz {
-0% {
-    background-position-y: -37800px ;
+from { 
+    /* transform: translateY(80px) rotate(0deg); */
 }
-} */
-
-.animation {
+50% {
+    
+} 
+to{
+    transform: translateY(40px) ;
+    opacity: 0;
+}
+}
+ .animation {
     width: 1920px;
     height: 960px; 
     background: url("/img/nbgB77C1HAg\ 1\ \(1\).png") center top 0px no-repeat;
 }
 
+.wrapper__animation {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow: hidden;
+    min-width: 1920px;
+}
+
 .container__animation {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1920px;
+    height: 960px;
+}
+
+.animation__list {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+    animation: quiz 3s  reverse;
+    animation-fill-mode: backwards;
+}
+
+.animation__anime {
+    width: 321px;
+    height: 71px;
+}
+
+.animation__item {
+    margin-bottom: 57px;
 }

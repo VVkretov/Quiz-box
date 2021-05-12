@@ -9,8 +9,12 @@
 
 .buttom--main {
     background: #8F00FF;
-    border-color:#8F00FF;
+    border-color:#741BBA;
 }
+
+.buttom--main:hover {
+  background:#741BBA;
+  }
 
 .buttom--light {
   padding: 17px 28px;
