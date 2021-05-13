@@ -56,7 +56,7 @@ min-width: 1200px;
 }
 
 .main-page-wrapper {
-    background: url(/img/nbgB77C1HAg\ 1\ \(1\).png) center top 0px no-repeat, url(/img/56278948-888x544\ 2.png) right bottom 150px no-repeat;
+    background: url(./img/nbgB77C1HAg\ 1\ \(1\).png) center top 0px no-repeat, url("/img/56278948-888x544\ 2.png") right bottom 150px no-repeat;
 }
 
 /* .wrapper__content {
@@ -76,7 +76,7 @@ min-width: 1200px;
 }
 
 .page-wrapper {
-    background: url('/img/nbgB77C1HAg\ 1\ \(1\).png') center top 0px no-repeat; 
+    background: url('./img/nbgB77C1HAg\ 1\ \(1\).png') center top 0px no-repeat; 
 }
 
 .top-line {
