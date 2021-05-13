@@ -1,26 +1,27 @@
-@import url('../layout/fonts.css');
+@import url('./layout/fonts.css');
 @import url('./layout/base.css');
 
-@import url('../blocks/header.css');
-@import url('../blocks/logo.css');
-@import url('../blocks/menu.css');
-@import url('../blocks/contacts.css');
-@import url('../blocks/hello.css');
-@import url('../blocks/buttom.css');
-@import url('../blocks/offers.css');
-@import url('../blocks/events.css');
-@import url('../blocks/single-events.css');
-@import url('../blocks/title.css');
-@import url('../blocks/pagination.css');
-@import url('../blocks/story.css');
-@import url('../blocks/footer.css');
-@import url('../blocks/socials.css');
-@import url('../blocks/pager.css');
-@import url('../blocks/partners.css');
-@import url('../blocks/inner-section.css');
-@import url('../blocks/breadcrumbs.css');
-@import url('../blocks/services.css');
-@import url('../blocks/animation.css');
+@import url('./blocks/header.css');
+@import url('./blocks/logo.css');
+@import url('./blocks/menu.css');
+@import url('./blocks/contacts.css');
+@import url('./blocks/hello.css');
+@import url('./blocks/buttom.css');
+@import url('./blocks/offers.css');
+@import url('./blocks/events.css');
+@import url('./blocks/single-events.css');
+@import url('./blocks/title.css');
+@import url('./blocks/pagination.css');
+@import url('./blocks/story.css');
+@import url('./blocks/footer.css');
+@import url('./blocks/socials.css');
+@import url('./blocks/pager.css');
+@import url('./blocks/partners.css');
+@import url('./blocks/inner-section.css');
+@import url('./blocks/breadcrumbs.css');
+@import url('./blocks/services.css');
+@import url('./blocks/animation.css');
+
 
 
 
