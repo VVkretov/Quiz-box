@@ -1,10 +1,9 @@
 .services {
-    margin-bottom: 106px;
+    /* margin-bottom: 65px; */
 }
 
 .service {
-    display: flex;
-    margin-bottom: 47px;
+    
 } 
 
 .service__img {
@@ -28,12 +27,21 @@
 .service__title {
     font-size: 36px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
     color: #000;
 }
 
 .service__desc {
     line-height: 27px;
-    margin-bottom: 49px;
+    margin-bottom: 52px;
     max-width: 627px;     
 }
+
+.service__item {
+    display: flex;
+    margin-bottom: 52px;
+}
+
+/* .service__item:nth-child( 3n + 2) {
+    margin-bottom: 0px;
+}  */

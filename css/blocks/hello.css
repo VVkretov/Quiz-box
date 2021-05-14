@@ -2,6 +2,7 @@
     min-height: 484px;
     width: 600px;
     max-width: 100%;
+    margin-bottom: 85px;
 }
 
 .hello__container {
@@ -17,5 +18,5 @@
 
    .hello__text {
        font-size: 21px;
-       margin-bottom: 74px;
+       margin-bottom: 87px;
    }

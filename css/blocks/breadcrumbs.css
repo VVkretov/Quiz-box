@@ -16,17 +16,18 @@
     font-weight: bold;
 }
 
-.breadcrumbs__item::after {
+.breadcrumbs__item:after {
     content: "/";
     color: #9A9A9A;
     padding: 3.5px;
 }
 
-.breadcrumbs__item:last-child::after {
+.breadcrumbs__item:last-child:after {
     display: none;
 }
 
 .breadcrumbs__link {
     color: #9A9A9A;
     font-size: 14px;
+    text-decoration: revert;
 }
