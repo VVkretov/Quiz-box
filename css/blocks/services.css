@@ -1,9 +1,9 @@
 .services {
-    /* margin-bottom: 65px; */
+    margin-bottom: 52px;
 }
 
 .service {
-    
+    display: flex;
 } 
 
 .service__img {
@@ -42,6 +42,6 @@
     margin-bottom: 52px;
 }
 
-/* .service__item:nth-child( 3n + 2) {
-    margin-bottom: 0px;
-}  */
+.service__item:nth-child( 2n ) {
+    margin-bottom: 0px; 
+}  
