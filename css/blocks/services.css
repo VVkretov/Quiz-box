@@ -45,3 +45,7 @@
 .service__item:nth-child( 2n ) {
     margin-bottom: 0px; 
 }  
+
+.service__item:last-child {
+    margin-bottom: 0px;
+}
