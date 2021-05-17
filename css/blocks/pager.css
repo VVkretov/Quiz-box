@@ -11,3 +11,12 @@
     color: #fff;
     background: #8F00FF;
 }
+
+.pagers {
+    color: #fff;
+}
+
+.pagers .pagination__number:hover {
+    color: #fff;
+    background: #8F00FF;
+}
