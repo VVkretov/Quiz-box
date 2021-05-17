@@ -47,6 +47,12 @@ img {
     max-width: 100%;
 }
 
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
 .wrapper {
 display: flex;
 flex-direction: column;
@@ -58,11 +64,6 @@ min-width: 1200px;
 .main-page-wrapper {
     background: url("../../img/nbgB77C1HAg\ 1\ \(1\).png") center top 0px no-repeat, url("../../img/56278948-888x544\ 2.png") right bottom 150px no-repeat;
 }
-
-/* .wrapper__content {
-    width: 1140px;
-    margin: 0 auto; 
-} */
 
 .wrapper-container {
     width: 1140px;
@@ -109,3 +110,4 @@ min-width: 1200px;
     width: 1140px;
     margin: 0 auto;
 }
+

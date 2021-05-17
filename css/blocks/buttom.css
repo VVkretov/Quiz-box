@@ -48,3 +48,8 @@
 .buttom--light--length--active {
   padding: 17px 40px;
 }
+.buttom--black {
+  background: #2B2B2B;
+  color: #fff;
+  padding: 17px 40px;
+}

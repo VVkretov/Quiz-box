@@ -12,6 +12,11 @@
      padding: 20px 30px;
      font-size: 18px;
      color: #1A1B1E;
+     border: 1px solid transparent;
+}
+.form__input:focus {
+    outline: none;
+    border: 1px solid #8F00FF;
 }
 
 .form__input::placeholder {
@@ -24,4 +29,52 @@
 
 .form__input--textarea {
     height: 232px;
+    resize: none;
 }
+
+.form__controls {
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.forms__controls-title {
+    width: 40%;
+    padding-left: 30px;
+}
+
+.controls {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.controls__item {
+    margin-bottom: 9px;
+    margin-left: 7px;
+}
+
+.controls__elem {
+    cursor: pointer;
+}
+
+.controls__checkbox:checked ~ .controls__tag {
+    background: #B9EAE4; 
+}
+
+.controls__checkbox {
+    display: none;
+}
+
+.form__btns {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+/* .form__btn {
+    margin-right: 20px;
+}
+
+.form__btn:last-child {
+    margin-right: 0px;
+} */
