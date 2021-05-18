@@ -11,6 +11,7 @@
 .contacts__chart {
     font-size: 13px;
     text-decoration: underline;
+    position: relative;
 }
 
 .contacts__elements {
@@ -21,3 +22,54 @@
     .contacts__element {
         font-size: 26px;
     }
+
+    .contacts__schedule-wrap:hover {
+        color: red;
+        cursor: pointer;
+    }               
+
+    .contacts__schedule-wrap {
+        margin-bottom: 20px;
+    }
+
+    .contacts__schedule-wrap:hover .dropdown {
+        opacity: 0.8;
+    }
+
+    .dropdown {
+        padding: 24px 20px 15px;
+        background: #EDEDED;
+        opacity: 0;
+        border-radius: 4px;
+        color: #1E1F20;
+        position: absolute;
+        top: 18%;
+        font-weight: 600;
+    }
+
+    .dropdown:after {
+        content:'' ;
+        position: absolute;
+        border: 20px solid transparent;
+        border-bottom-color: #EDEDED ;
+        border-top-width: 0px;
+        top: -15px;
+        right: 15px;
+        left: 130px;
+        opacity: 1;
+        transition: opacity 1s;
+    }
+
+    .dropdown__days {
+        font-weight: bold;
+    }
+
+    .dropdown:before {
+        content: '';
+        height: 30px;
+        width: 100%;
+        position: absolute;
+        top: -30px;
+        left: 0;
+    }
+
