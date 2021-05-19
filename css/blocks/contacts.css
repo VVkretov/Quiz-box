@@ -1,6 +1,8 @@
 .contacts {
     text-align: right;
     font-style: normal;
+    /* display: flex;
+    flex-direction: column; */
 }
 
 .contacts__phone {
@@ -62,6 +64,13 @@
 
     .dropdown__days {
         font-weight: bold;
+        font-size: 13px;
+    }
+
+    .dropdown__time {
+        font-size: 13px;
+        right: 9px;
+        position: relative;
     }
 
     .dropdown:before {
@@ -70,6 +79,6 @@
         width: 100%;
         position: absolute;
         top: -30px;
-        left: 0;
+        left: 33;
     }
 

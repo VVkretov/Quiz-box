@@ -10,6 +10,7 @@
 .buttom--main {
     background: #8F00FF;
     border-color:#741BBA;
+    color: #fff;
 }
 
 .buttom--main:hover {
@@ -49,7 +50,11 @@
   padding: 17px 40px;
 }
 .buttom--black {
-  background: #2B2B2B;
+  background: #8E8E8E;
   color: #fff;
   padding: 17px 40px;
+}
+
+.buttom--black:hover {
+  background: #2B2B2B;
 }

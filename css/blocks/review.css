@@ -4,8 +4,9 @@
     margin-bottom: 70px;
 }
 
-.reviews-item {
+.reviews__item {
     margin-bottom: 17px;
+    border-radius: 4px;
 }
 
 .review {

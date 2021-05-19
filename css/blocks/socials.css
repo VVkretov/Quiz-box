@@ -1,14 +1,47 @@
 .socials {
     display: flex;
+    height: 36px;
 }
 
 .socials__link {
-    display: block;
+    display: inline-block;
     width: 36px;
 }
 
 .socials__item {
     margin-right: 8px;
+}
+
+.socials__item--telegram {
+    background-image: url("../../img/telegram.png") ;
+}
+
+.socials__item--telegram:hover {
+    background-image: url("../../img/t2.png") ;
+}
+
+.socials__item--vk {
+    background-image: url("../../img/vk.png");
+}
+
+.socials__item--vk:hover {
+    background-image: url("../../img/vk2.png");
+}
+
+.socials__item--facebook {
+    background-image: url("../../img/f.png");
+}
+
+.socials__item--facebook:hover {
+    background-image: url("../../img/f2.png");
+}
+
+.socials__item--instagram {
+    background-image: url("../../img/in.png");
+}
+
+.socials__item--instagram:hover {
+    background-image: url("../../img/in2.png");
 }
 
 .socials__item:last-child{
