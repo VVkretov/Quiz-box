@@ -12,6 +12,12 @@
     border-color:#741BBA;
     color: #fff;
 }
+.form__btn {
+  background: #8F00FF;
+    border-color:#741BBA;
+    color: #fff;
+    padding: 18px 56px;
+}
 
 .buttom--main:hover {
   background:#741BBA;

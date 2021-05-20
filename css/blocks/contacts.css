@@ -28,10 +28,11 @@
     .contacts__schedule-wrap:hover {
         color: red;
         cursor: pointer;
+        position: relative;
     }               
 
     .contacts__schedule-wrap {
-        margin-bottom: 20px;
+        /* margin-bottom: 0px; */
     }
 
     .contacts__schedule-wrap:hover .dropdown {
@@ -45,7 +46,7 @@
         border-radius: 4px;
         color: #1E1F20;
         position: absolute;
-        top: 18%;
+        top: 156%;
         font-weight: 600;
     }
 
@@ -57,7 +58,7 @@
         border-top-width: 0px;
         top: -15px;
         right: 15px;
-        left: 130px;
+        left: 110px;
         opacity: 1;
         transition: opacity 1s;
     }

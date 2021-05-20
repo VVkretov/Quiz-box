@@ -1,15 +1,15 @@
 .inner-section {
     background: #F4F5F5;
     color: #1A1B1E;
-    padding: 88px 0;
-    margin-bottom: 18px;
+    padding: 84px 0;
+    margin-bottom: 9px;
 }
 
 .inner-section__title {
     font-size: 48px;
     line-height: 65px;
     font-weight: bold;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 .inner-footer {
