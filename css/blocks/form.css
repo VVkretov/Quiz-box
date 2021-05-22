@@ -16,7 +16,7 @@
 }
 .form__input:focus {
     outline: none;
-    border: 1px solid #8F00FF;
+    border-color: #8F00FF;
 }
 
 .form__input::placeholder {
@@ -46,6 +46,8 @@
     flex: 1;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: -9px;
+    margin-left: -7px;
 }
 
 .controls__item {
@@ -70,11 +72,3 @@
     justify-content: flex-end;
     gap: 20px;
 }
-
-/* .form__btn {
-    margin-right: 20px;
-}
-
-.form__btn:last-child {
-    margin-right: 0px;
-} */

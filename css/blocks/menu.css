@@ -24,3 +24,7 @@
 .menu__link:hover {
     color:#8F00FF;
 }
+
+.menu__item--active {
+    color:#8F00FF;
+}

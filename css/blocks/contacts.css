@@ -1,8 +1,6 @@
 .contacts {
     text-align: right;
     font-style: normal;
-    /* display: flex;
-    flex-direction: column; */
 }
 
 .contacts__phone {
@@ -31,10 +29,6 @@
         position: relative;
     }               
 
-    .contacts__schedule-wrap {
-        /* margin-bottom: 0px; */
-    }
-
     .contacts__schedule-wrap:hover .dropdown {
         opacity: 0.8;
     }
@@ -46,7 +40,7 @@
         border-radius: 4px;
         color: #1E1F20;
         position: absolute;
-        top: 156%;
+        margin-top: 16px;
         font-weight: 600;
     }
 
@@ -58,7 +52,6 @@
         border-top-width: 0px;
         top: -15px;
         right: 15px;
-        left: 110px;
         opacity: 1;
         transition: opacity 1s;
     }
@@ -80,6 +73,6 @@
         width: 100%;
         position: absolute;
         top: -30px;
-        left: 33;
+        right: 0;
     }
 
